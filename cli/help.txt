@@ -1,0 +1,25 @@
+NIH is a single-binary cloud.
+
+# Usage
+
+    nih [global flags] COMMAND [local flags] [arguments]
+
+# Commands
+
+    help    print this text
+
+Run "nih COMMAND -h" for more information about that command.
+
+# Global flags
+
+    -cert FILE
+        Location of the initial certificate chain
+        (default: etc/trust/cert.pem)
+
+    -key FILE
+        Location of the initial private key
+        (default: etc/trust/key.pem)
+
+    -ca FILE
+        Location of the initial CA certificates
+        (default: etc/trust/ca.pem)
